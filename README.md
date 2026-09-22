@@ -211,5 +211,3 @@ Pendiente para versiones posteriores:
 - observabilidad avanzada
 - métricas
 - evaluación de evasiones
-# Taller_1_Mecanismos_Seguridad
-# Taller_1_Mecanismos_Seguridad

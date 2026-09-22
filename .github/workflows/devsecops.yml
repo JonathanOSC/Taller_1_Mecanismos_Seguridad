@@ -39,7 +39,7 @@ jobs:
           target: 'http://localhost:8080'
 
       - name: Despliegue de reglas WAAP (solo si todo pasa)
-        if: succes()
+        if: success()
         run: ./scripts/deploy_waap_rules.sh
 
 

@@ -3,4 +3,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
+
+#Crear y cambiar a un usuario no privilegiado
+RUN useradd -m appuser
+USER appuser
+
+
 CMD ["python3", "-m", "http.server", "8080"]
